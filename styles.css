@@ -1,0 +1,62 @@
+.header {
+    background-color: #1F2937;
+    display: flexbox;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.navlinks {
+    padding: 16px;
+    border: #E5E7EB;
+    gap: 8px;
+    display: flex;
+    flex: 1;
+    margin-left: 50px; /* ver se é possivel deixar isso diferente */
+    margin-right: 50px; /* ver se é possivel deixar isso diferente */
+}
+
+.navlinks>ul>li {
+    /* Headerlinktxt */
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.navlinks>ul>li>a {
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.navlinks>h1 {
+    /* Logo */
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+
+}
+
+.hero {
+    display: flex;
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header>h2 {
+    /* Heromaintxt */
+    font-size: 48px;
+    color: #F9FaF8;
+}
+
+.header>p {
+    /* Hero2ndtxt */
+}
+
+
+
+
+.info {}
+
+.quote {}
