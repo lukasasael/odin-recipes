@@ -1,24 +1,24 @@
+body {
+    background-color: lightyellow;
+}
+
 .header {
     background-color: #1F2937;
     font-size: 18px;
     color: #E5E7EB;
-
 }
 
 .navlinks {
-    margin-left: 50px;
-    /* ver se é possivel deixar isso diferente */
-    margin-right: 50px;
-    /* ver se é possivel deixar isso diferente */
+    margin: auto 200px;
     display: flex;
-    justify-content: space-around;
 }
 
 .navlinks>ul>li {
-    /* Headerlinktxt */
+    /* Headerlinklist */
     list-style-type: none;
     padding: 10px;
     display: inline-flex;
+    margin-left: auto;
 }
 
 .navlinks>ul>li>a {
@@ -29,40 +29,78 @@
 
 .navlinks>h1 {
     /* Logo */
+    align-self: center;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    /*justify-self: flex-start;*/
+    margin-right: auto;
 }
 
 .hero {
-    padding: 10% 10% 10% 10%;
-    
+    margin: auto 200px;
+    padding: 10% 0% 10% 0%;
     display: flex;
-    justify-content: space-around;
 }
 
-.hero>img{
-    width: 50%;
-    margin: 20px;
-    height: auto;
+.hero>.herotxt {
+    margin-left: auto;
 }
 
-.hero>h2 {
+.hero>.herotxt>h2 {
     /* Heromaintxt */
     font-size: 48px;
+    font-weight: 800;
     margin: 20px;
     color: #F9FaF8;
     text-align: left;
+    margin-left: auto;
 }
 
-.hero>p {
+.hero>.herotxt>p {
     /* Hero2ndtxt */
     margin: 20px;
     text-align: left;
+    margin-left: auto;
 }
 
+.hero>.herotxt>button {
+    margin: 20px;
+    background-color: #3882F6;
+    margin-left: auto;
 
+    appearance: button;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s, box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 16%;
+}
+
+#pic {
+    width: 50%;
+    height: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
 
 
 .info {}
